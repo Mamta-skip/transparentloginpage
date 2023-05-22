@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+body{
+    background-image: url(transparent.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.row {
+
+    width: 400px;
+    margin: 100px auto;
+    background: rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 20px #d2cdcd;
+   
+
+
+
+}
+.title{
+margin-top:10px;
+text-align: center;
+color: aliceblue;
+font-weight: bolder;
+font-size: larger;
+color:rgb(5, 5, 5);
+}
+.icon{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  
+    
+}
+.icon-facebook{
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+.icon-twitter{
+    padding: 10px;
+    font-size: 31px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+}
+.anotherwayto_login{
+    font-size: 20px;
+    text-align: center;
+    margin:15px auto;
+    font-weight: bolder;
+    color:rgb(189, 188, 188);
+}
+
+.login-form{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+.email{
+    padding: 10px;
+
+}
+.password{
+    padding: 10px;
+}
+.forgotpassword_text a{
+    font-size: 15px;
+    text-align: center;
+    margin:15px auto;
+    font-weight: bolder;
+    color:rgb(189, 188, 188);
+    text-decoration: none;
+    
+}
+.form-submit {
+    margin: 20px;
+}
+.form-control {
+    background-color: buttonface;
+    border: 0px;
+    padding: 3px;
+    
+}
+
+.submit-btn {
+    color: #070607;
+    font-weight: bold;
+    padding: 10px 40px;
+    letter-spacing: 10px;
+    border: 2px solid #fcfcfc;
+    border-radius: 20px;
+}
+.submit-btn:hover{
+    color:rgb(252, 252, 253);
+    border:2px solid white;
+    background-color: rgb(43, 50, 73);
+}
+
+
+
